@@ -1,0 +1,15 @@
+using System;
+
+public class Program
+{​​
+public static void Main()
+{​​
+//преобразуване на десетично число в двоично//
+Console.WriteLine("Въведете десетично число");
+int chislo = int.Parse(Console.ReadLine());
+string bin = Convert.ToString(chislo,2);
+Console.WriteLine("Десетичното число "+chislo);
+Console.WriteLine("Двоичното число "+bin);
+
+}​​
+}​​
