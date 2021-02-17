@@ -1,0 +1,59 @@
+using System;
+
+public class Program
+{​​​​
+    public static void Main()
+    {​​​​
+	//Преобразуване на двоично число в десетично число и шестнадесетично число
+        int d= 1234;    
+        string dv = Convert.ToString(d,2);
+        string sd = Convert.ToString(d,16).ToUpper();
+        Console.WriteLine("Десетичното число е:{​​​​0}​​​​",d);
+        Console.WriteLine("Двоичното число е:{​​​​0}​​​​",dv);
+        Console.WriteLine("Шестнадесетично число е:{​​​​0}​​​​",sd);
+ 
+    }​​​​
+}​​​​
+
+_____
+
+
+using System;
+ 
+namespace ConsoleApp2
+{​​​​
+    class Program
+    {​​​​
+        static void Main(string[] args)
+        {​​​​   
+            string bin = "1100101";
+            int dec = Convert.ToInt32(bin, 2);
+            string xec = Convert.ToString(dec, 16);
+            Console.WriteLine("dvoichno {​​​​0}​​​​", bin);
+            Console.WriteLine("desetichno {​​​​0}​​​​", dec);
+            Console.WriteLine("16-tichno {​​​​0}​​​​", xec);
+ 
+        }​​​​
+    }​​​​
+}​​​​ 
+
+
+_____
+
+
+using System;
+
+public class Program
+{​​
+public static void Main()
+{​​
+string xecs = "ABC";
+int dec = Convert.ToInt32(xecs, 16);
+string bin = Convert.ToString(dec,2);
+Console.WriteLine("16-тично {​​0}​​",xecs);
+Console.WriteLine("10-тично {​​0}​​",dec);
+Console.WriteLine("двуично {​​0}​​", bin);
+int chislo = 0xABC;
+Console.WriteLine( "0xABC= " + chislo);
+}​​
+}​​
