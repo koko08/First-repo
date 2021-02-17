@@ -1,0 +1,27 @@
+using System; 
+
+ 
+
+public class Program 
+
+{ 
+
+public static void Main() 
+
+{ 
+
+//Преобразуване от двуично в десетично
+
+Console.WriteLine("Въведете двуично число"); 
+
+string bin = Console.ReadLine(); 
+
+int chislo = Convert.ToInt32(bin,2); 
+
+Console.WriteLine("Двуично число "+bin); 
+
+Console.WriteLine("Десетично число " + chislo); 
+
+} 
+
+} 
