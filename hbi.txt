@@ -1,0 +1,26 @@
+Ок сега, не запазих задачите. Затова ще поставя кодовете, които бяха в чата и ще се надявам да не ме изядете.
+
+
+Console.WriteLine("Wuwedete desettichno chislo ");
+            int chislo = 17;
+            string bin = Convert.ToString(chislo, 2);
+            Console.WriteLine("des "+chislo);
+            Console.WriteLine("dwoicno "+bin);
+
+
+
+using System;
+
+public class Program
+{​​
+public static void Main()
+{​​
+string d = "10111";
+string d1 = "10111";
+int dd = Convert.ToInt32(d,2);
+int dd1 = Convert.ToInt32(d1,2);
+int sdd= dd+dd1;
+string sudd = Convert.ToString(sdd,2);
+Console.WriteLine("Сумата е {​​0}​​",sudd);
+}​​
+}​​
